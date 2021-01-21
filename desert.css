@@ -47,6 +47,7 @@ nav ul li a{
 }
 .col{
     width: 50%;
+    
 }
 h1{
     color: white;
@@ -104,4 +105,37 @@ p{
     
     
 }
-/* @media */
+@media(max-width:668px){
+    nav{
+        display: none;
+    }
+    .menu{
+        margin-left: auto;
+    }
+    .row{
+        display: block;
+        
+    }
+    .col{
+        width: 100%;
+        justify-content: center;
+        
+        
+    }
+    .card{
+        height: 210px;
+        width: 200px;
+        padding: 10px 10px;
+        margin: 10px 83px;
+        
+        /* margin: 10px 50px; */
+        /* position: relative; 
+        justify-content: center;
+       margin: 10px ; */
+         
+     
+    }
+    .container{
+        height: 1350px;
+    }
+}
